@@ -72,7 +72,9 @@ p {
 .custom-shape-divider-bottom-1702366378 .shape-fill {
     fill: rgb(68, 76, 82);
 }
-
+.card{
+    background-color: var(--bgcolor);
+}
 .card-box:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
