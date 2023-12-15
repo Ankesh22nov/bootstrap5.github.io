@@ -32,7 +32,9 @@ a {
 p {
     word-spacing: 0.1rem;
 }
-
+::-webkit-scrollbar {
+    width: 0;
+  }
 
 
 .video_1 {
