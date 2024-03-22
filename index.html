@@ -2,308 +2,322 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <link rel="stylesheet" href="https://unpkg.com/transition-style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg my-5 my-lg-3">
-        <div class="container">
-            <!-- in container-fluid ther is some margin and in container ther is no margin  -->
-            <a data-aos="fade-right" data-aos-duration="1000" class="navbar-brand text-white " id="logo" href="#">Navbar</a>
-            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
-                    class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#service">Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-capitalize" aria-current="page" href="#contact">contact</a>
-                        <!-- text-capitalize class capitalized the text -->
-                    </li>
-                </ul>
+    <div id="main_div">
+        <nav class="navbar navbar-expand-lg my-5 my-lg-3">
+            <div class="container">
+                <!-- in container-fluid ther is some margin and in container ther is no margin  -->
+                <a data-aos="fade-right" data-aos-duration="1000" class="navbar-brand text-white " id="logo" href="#">Navbar</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-capitalize" aria-current="page" href="#contact">contact</a>
+                            <!-- text-capitalize class capitalized the text -->
+                        </li>
+                    </ul>
+                </section>
             </div>
-        </div>
-    </nav>
-    <!-- main section start -->
-    <section id="home" class="bg-main bg-color main-section">
-        <div class="container  my-5">
-            <div class="row text-center">
-                <div data-aos="zoom-in-right" data-aos-duration="800"
-                    class=" main_section_div1 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center ">
-                    <h1>we colloct high quality leads</h1>
-                    <p class="text-align-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                        ipsam nesciunt dolore vitae natus
-                        dicta maxime exercitationem odio temporibus, nihil reprehenderit nisi, eaque voluptate, eum
-                        itaque debitis autem fuga et?</p>
-                    <div class="text-left my-3">
-                        <button class="btn btn-outline-light " data-bs-toggle="tooltip"
-                            data-bs-title="Get in touch">contact us</button>
-                    </div>
-                </div>
-                <div class=" video_div col-12 col-md-12 col-lg-6 ">
-                    <div data-aos="zoom-in-left" data-aos-duration="700">
-                        <video src="hero.mp4" loop muted autoplay class="video_1 rounded-4">
-                            your browser does not support the video tag
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- this curve is taken by shape divider website   -->
-    <div class="custom-shape-divider-bottom-1702366378">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path
-                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
-                opacity=".25" class="shape-fill"></path>
-            <path
-                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-                opacity=".5" class="shape-fill"></path>
-            <path
-                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-                class="shape-fill"></path>
-        </svg>
-    </div>
-    <section id="service" class="Service_section">
-        <div class="container text-center py-4">
-            <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="my-5">What We Will
-                Do For <br> Your Business</h1>
-        </div>
-        <div class="container  my-5">
-            <div class="row">
-                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"
-                    class="col-12 col-md-4 d-flex  justify-content-center ">
-                    <div class="card-box text-center rounded-4 py-3 px-3">
-                        <img src="link.gif" alt="gif" class="img-fluid" width="150px">
-                        <h5>Link building</h5>
-                        <p> Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say
-                            arse!
-                        </p>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"
-                    class="col-12 col-md-4 d-flex  justify-content-center ">
-                    <div class="card-box text-center rounded-4 shadow py-3 px-3">
-                        <img src="link.gif" alt="gif" class="img-fluid" width="150px">
-                        <h5>Link building</h5>
-                        <p> Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say
-                            arse!
-                        </p>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"
-                    class="col-12 col-md-4 d-flex  justify-content-center ">
-                    <div class="card-box text-center rounded-4 py-3 px-3">
-                        <img src="link.gif" alt="gif" class="img-fluid" width="150px">
-                        <h5>Link building</h5>
-                        <p> Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say
-                            arse!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about" class="bg-main bg-color  my-5">
-        <div class="container  my-5">
-            <div class="row text-center">
-                <div class=" video_div col-12 col-md-12 col-lg-6 ">
-                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
-                        <figure>
-                            <img src="phone.gif" alt="gif" class="py-5 px-5" width="70%">
-                        </figure>
-                    </div>
-                </div>
-                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500"
-                    class=" main_section_div1 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center ">
-                    <h1>we colloct high quality leads</h1>
-                    <p class="text-align-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                        ipsam nesciunt dolore vitae natus
-                        dicta maxime exercitationem odio temporibus, nihil reprehenderit nisi, eaque voluptate, eum
-                        itaque debitis autem fuga et?</p>
-                    <div class="text-left my-3">
-                        <button class="btn btn-outline-light " data-bs-toggle="tooltip"
-                            data-bs-title="Get in touch">contact us</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="about_section d-flex justify-content-center" style="flex-wrap: wrap">
-        <div class="mx-3" data-aos="fade-right">
-            <div data-aos="zoom-in" class="card mb-3 shadow " style="max-width: 450px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="speaker.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+        </nav>
+        <!-- main section start -->
+        <section id="home" class="bg-main bg-color main-section">
+            <div class="container  my-5">
+                <div class="row text-center">
+                    <div data-aos="zoom-in-right" data-aos-duration="800" class=" main_section_div1 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center ">
+                        <h1>we colloct high quality leads</h1>
+                        <p class="text-align-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam nesciunt dolore vitae natus dicta
+                            maxime exercitationem odio temporibus, nihil reprehenderit nisi, eaque voluptate, eum itaque
+                            debitis autem fuga et?</p>
+                        <div class="text-left my-3">
+                            <button class="btn btn-outline-light " data-bs-toggle="tooltip" data-bs-title="Get in touch">contact us</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div data-aos="zoom-in" class="card mb-3 shadow" style="max-width: 450px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="phone.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                    <div class=" video_div col-12 col-md-12 col-lg-6 ">
+                        <div data-aos="zoom-in-left" data-aos-duration="700">
+                            <video src="hero.mp4" loop muted autoplay class="video_1 rounded-4">
+                                your browser does not support the video tag
+                            </video>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="mx-3" data-aos="fade-left">
-            <div data-aos="zoom-in" class="card mb-3 shadow" style="max-width: 450px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="phone.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="zoom-in" class="card mb-3 shadow " style="max-width: 450px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="speaker.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="mt-5 mb-4" style="background-color:rgb(48, 45, 45); height: auto; width: 100vw;">
-        <!--contact section-->
-        <section class="common-section bg-color contact-section text-white" >
-
-            <div class="container text-center fw-bold common-title p-5">
-                <h2 data-aos="flip-left" class="common-heading text-white ">Contact Us</h2>
-                <hr class="w-25 mx-auto">
-            </div>
-
-            <div class="container ">
-                <div class="form-section  mx-auto" style="width: 50vw;">
-                    <form>
-                        <div class="mb-3">
-                            <div class="row">
-                                <div class=" col-12 col-md-6" data-aos="fade-right">
-                                    <label class="form-label" for="first-name">First name</label>
-                                    <input class="form-control" id="first-name" placeholder="First name"
-                                        aria-label="First name" type="text" required>
-                                </div>
-                                <div class="col" data-aos="fade-left">
-                                    <label for="last-name" class="form-label">Last name</label>
-                                    <input type="text" class="form-control" id="last-name" placeholder="Last name"
-                                        aria-label="Last name" required>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-3" data-aos="zoom-in">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" required
-                                placeholder="Enter your email" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone
-                                else.
-                            </div>
-                        </div>
-                        <div class="mb-3" data-aos="fade-down">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" required
-                                placeholder="Enter your message " rows="3"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary" data-aos="zoom-in">Submit</button>
-                    </form>
                 </div>
             </div>
         </section>
-        <!--contact section end -->
-
-
-        <!--footer section-->
-
-                <div class="container">
-                    <hr class="container mx-auto">
-
-                    <div class="row">
-                        <div class="col-lg-8 col-12 ">
-                            Copyright ©2023 All rights reserved. | This template is made  by <span class="bg-theme">
-                               Ankesh Kaneriya </span>
+        <!-- this curve is taken by shape divider website   -->
+        <div class="custom-shape-divider-bottom-1702366378">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <section id="service" class="Service_section">
+            <div class="container text-center py-4">
+                <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="my-5">What We Will Do For
+                    <br> Your Business</h1>
+            </div>
+            <div class="container  my-5">
+                <div class="row">
+                    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" class="col-12 col-md-4 d-flex  justify-content-center ">
+                        <div class="card-box text-center rounded-4 py-3 px-3">
+                            <img src="link.gif" alt="gif" class="img-fluid" width="150px">
+                            <h5>Link building</h5>
+                            <p> Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!
+                            </p>
                         </div>
-                        <div class="col-md-4 col-12  ">
-                            <div class="d-flex justify-content-center justify-content-lg-end gap-5 mt-lg-0 mt-3">
-                                <a href="https://www.instagram.com/thapatechnical/" target="_blank">
-                                    <div
-                                        class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </div>
-                                </a>
-                                <div
-                                    class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </div>
-                                <div
-                                    class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
-                                    <!--                            <i class="fa-brands fa-whatsapp"></i>-->
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" class="col-12 col-md-4 d-flex  justify-content-center ">
+                        <div class="card-box text-center rounded-4 shadow py-3 px-3">
+                            <img src="link.gif" alt="gif" class="img-fluid" width="150px">
+                            <h5>Link building</h5>
+                            <p> Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" class="col-12 col-md-4 d-flex  justify-content-center ">
+                        <div class="card-box text-center rounded-4 py-3 px-3">
+                            <img src="link.gif" alt="gif" class="img-fluid" width="150px">
+                            <h5>Link building</h5>
+                            <p> Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="bg-main bg-color  my-5 ">
+            <div class="container  my-5">
+                <div class="row text-center">
+                    <div class=" video_div col-12 col-md-12 col-lg-6 ">
+                        <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                            <figure>
+                                <img src="hero.mp4" alt="gif" class="py-5 px-5" width="70%">
+                            </figure>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500" class=" main_section_div1 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center ">
+                        <h1>we colloct high quality leads</h1>
+                        <p class="text-align-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam nesciunt dolore vitae natus dicta
+                            maxime exercitationem odio temporibus, nihil reprehenderit nisi, eaque voluptate, eum itaque
+                            debitis autem fuga et?</p>
+                        <div class="text-left my-3">
+                            <button class="btn btn-outline-light " data-bs-toggle="tooltip" data-bs-title="Get in touch">contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about_section d-flex justify-content-center" style="flex-wrap: wrap">
+            <div class="mx-3" data-aos="fade-right">
+                <div data-aos="zoom-in" class="card mb-3 shadow " style="max-width: 450px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="speaker.gif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" class="card mb-3 shadow" style="max-width: 450px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="phone.gif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This content is a little bit longer.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-    </section>
+            <div class="mx-3" data-aos="fade-left">
+                <div data-aos="zoom-in" class="card mb-3 shadow" style="max-width: 450px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="phone.gif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" class="card mb-3 shadow " style="max-width: 450px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="speaker.gif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial  -->
 
+        <section>
+            <div class="container text-center common-title my-5 py-5 ">
+                <h2 class="common-heading text-white">What Client Say
+                    <br>About Us</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+            <div class="d-flex justify-content-around align-items-center flex-wrap">
+                <div class="card  p-3" style="width: 18rem; ">
+                    <img alt="..." class="card-img-top" src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="card-body text-center">
+                        <p class="card-title  mb-3 ">Angelina Thapa</p>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class=" mt-3 d-flex justify-content-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  p-3" style="width: 18rem; ">
+                    <img alt="..." class="card-img-top" src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="card-body text-center">
+                        <p class="card-title  mb-3 ">Angelina Thapa</p>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class=" mt-3 d-flex justify-content-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  p-3" style="width: 18rem; ">
+                    <img alt="..." class="card-img-top" src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="card-body text-center">
+                        <p class="card-title  mb-3 ">Angelina Thapa</p>
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class=" mt-3 d-flex justify-content-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial end -->
+        <!--contact section-->
+        <section id="contact" class="mt-5 mb-4" style="background-color:rgb(48, 45, 45); height: auto; width: 100vw;">
+            <section class="common-section bg-color contact-section text-white">
+
+                <div class="container text-center fw-bold common-title p-5">
+                    <h2 data-aos="flip-left" class="common-heading text-white ">Contact Us</h2>
+                    <hr class="w-25 mx-auto">
+                </div>
+
+                <div class="container ">
+                    <div class="form-section  mx-auto" style="width: 50vw;">
+                        <form>
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class=" col-12 col-md-6" data-aos="fade-right">
+                                        <label class="form-label" for="first-name">First name</label>
+                                        <input class="form-control" id="first-name" placeholder="First name" aria-label="First name" type="text" required>
+                                    </div>
+                                    <div class="col" data-aos="fade-left">
+                                        <label for="last-name" class="form-label">Last name</label>
+                                        <input type="text" class="form-control" id="last-name" placeholder="Last name" aria-label="Last name" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3" data-aos="zoom-in">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" required placeholder="Enter your email" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3" data-aos="fade-down">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="Enter your message " rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" data-aos="zoom-in">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--contact section end -->
+
+
+            <!--footer section-->
+            <footer>
+                <div class=" container">
+                    <hr class="container mx-auto">
+                    <div class="copyright row">
+                        <div class="col-lg-8 col-12 ">
+                            Copyright ©2023 All rights reserved. | This template is made by
+                            <span class="bg-theme">
+                                Ankesh Kaneriya </span>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </footer>
+    </section>
+    </div>
 
     <!-- main section end -->
     <script>
         AOS.init();
     </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+        </script>
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
