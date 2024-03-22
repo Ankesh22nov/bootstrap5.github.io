@@ -14,29 +14,21 @@ than add {data-aos="  " } to the div which ones you want to giv animations*/
     box-sizing: border-box;
 }
 
-body {
+#main_div {
     background: var(--bgcolor);
     color: var(--color);
-
-}
-
-:root {
-    --bgcolor: rgb(32, 31, 31);
-    --color: white;
-}
-
-a {
-    color: white
-}
-
-p {
-    word-spacing: 0.1rem;
+    padding: 1% 0;
 }
 ::-webkit-scrollbar {
     width: 0;
   }
-
-
+:root {
+    --bgcolor: rgb(32, 31, 31);
+    --color: white;
+}
+p {
+    word-spacing: 0.1rem;
+}
 .video_1 {
     max-width: 100%;
     height: auto;
@@ -50,7 +42,9 @@ p {
     position: relative;
     /* text-align: center */
 }
-
+.card{
+    background-color: var(--bgcolor);
+}
 /* .main_section_div1{
     text-align: left
 } */
@@ -74,9 +68,14 @@ p {
 .custom-shape-divider-bottom-1702366378 .shape-fill {
     fill: rgb(68, 76, 82);
 }
-.card{
-    background-color: var(--bgcolor);
-}
+
 .card-box:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 10px 24px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
 }
